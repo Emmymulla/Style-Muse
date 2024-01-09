@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link to="/services">Services</Link>
         <Link to="/contact">Contact Us</Link>
         <Link to="/login">
-          <button className="w-[100px] h-[40px] bg-slate-500 font-medium text-sm text-white">
+          <button className="w-[100px] h-[40px] rounded-md uppercase bg-slate-500 font-medium text-sm text-white">
             Login
           </button>
         </Link>
