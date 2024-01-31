@@ -2,7 +2,7 @@ import React from "react";
 const Contact = () => {
   return(
     <div className="Contact w-full  md:h-[170vh] h-[230vh]  text-white flex flex-col justify-start items-center border-[1px] border-[black]">
-  <div className="w-[100%] h-[30vh] border-[1px] border-[black] flex items-center justify-center imageheader ">
+   <div className="w-[100%] h-[30vh]  flex items-center justify-center imageheader ">
     <div className="md:w-[80vw] w-[80vw] md:h-[10vh] h-[15vh] flex justify-between  items-center">
      <h1 className="text-[30px]">CONTACT</h1>
      <small className="md:flex text-[12px] text-[#d79d05] hidden"><a href="home">HOME</a>        <span className="text-white">  /    CONTACT</span></small>

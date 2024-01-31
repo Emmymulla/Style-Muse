@@ -2,18 +2,21 @@
 
 * {
   font-family: "Montserrat", sans-serif;
- 
 }
- HEAD
+
 .Contact{
   background-color: rgb(24, 25, 27);
   border: none;
 }
 .imageheader{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(
+    to right,
+    rgba(2, 6, 26, 0.82),
+    rgba(2, 6, 26, 0.82)),
     url(../src/Image/book.jpeg);
   background-repeat: no-repeat;
   background-size: 1800px;
+  background-position: top;
 
 }
 
