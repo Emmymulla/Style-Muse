@@ -32,28 +32,28 @@ const Footer = () => {
               <div className="w-full flex items-center justify-start border-b border-[#222222] lg:pb-1 md:pb-3 pb-3">
                 <Link
                   to="#"
-                  className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05]"
+                  className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702]"
                 >
                   The Essential Interior Design Tips
                 </Link>
               </div>
               <div className="w-full flex items-center justify-start border-b border-[#222222] lg:pb-1 md:pb-3 pb-3">
-                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05]">
+                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702]">
                   Functional Wall-to-Wall Shelves
                 </Link>
               </div>
               <div className="w-full flex items-center justify-start border-b border-[#222222] lg:pb-1 md:pb-3 pb-3">
-                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05]">
+                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702]">
                   9 Unique Ways to Display Your TV
                 </Link>
               </div>
               <div className="w-full flex items-center justify-start border-b border-[#222222] lg:pb-1 md:pb-3 pb-3">
-                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05]">
+                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702]">
                   The 5 Secrets to Minimal Design
                 </Link>
               </div>
               <div className="w-full flex items-center justify-start border-b border-[#222222] lg:pb-1 md:pb-3 pb-3">
-                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05]">
+                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702]">
                   Make a Huge Impact With Multiples
                 </Link>
               </div>
@@ -74,7 +74,7 @@ const Footer = () => {
                   <p className="text-[#fab702] font-semibold xl:text-[14px] md:text-sm text-sm">
                     Phone:{" "}
                   </p>
-                  <p className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05] cursor-pointer">
+                  <p className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702] cursor-pointer">
                     (123) 456-7890
                   </p>
                 </div>
@@ -84,7 +84,7 @@ const Footer = () => {
                   <p className="text-[#fab702] font-semibold xl:text-[14px] md:text-sm text-sm">
                     Fax:{" "}
                   </p>
-                  <p className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05] cursor-pointer">
+                  <p className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702] cursor-pointer">
                     (123) 456-7890
                   </p>
                 </div>
@@ -94,7 +94,7 @@ const Footer = () => {
                   <p className="text-[#fab702] font-semibold xl:text-[14px] md:text-sm text-sm">
                     Email:{" "}
                   </p>
-                  <p className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05] cursor-pointer">
+                  <p className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702] cursor-pointer">
                     contact@stylemuse.com
                   </p>
                 </div>
@@ -104,7 +104,7 @@ const Footer = () => {
                   <p className="text-[#fab702] font-semibold xl:text-[14px] md:text-sm text-sm">
                     Web:{" "}
                   </p>
-                  <p className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05] cursor-pointer">
+                  <p className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702] cursor-pointer">
                     http://stylemuse.com
                   </p>
                 </div>
@@ -119,28 +119,28 @@ const Footer = () => {
               <div className="w-full flex items-center justify-start border-b border-[#222222] lg:pb-1 md:pb-3 pb-3">
                 <Link
                   to="#"
-                  className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05]"
+                  className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702]"
                 >
                   Interior Design
                 </Link>
               </div>
               <div className="w-full flex items-center justify-start border-b border-[#222222] lg:pb-1 md:pb-3 pb-3">
-                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05]">
+                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702]">
                   Architecture
                 </Link>
               </div>
               <div className="w-full flex items-center justify-start border-b border-[#222222] lg:pb-1 md:pb-3 pb-3">
-                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05]">
+                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702]">
                   Industry
                 </Link>
               </div>
               <div className="w-full flex items-center justify-start border-b border-[#222222] lg:pb-1 md:pb-3 pb-3">
-                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05]">
+                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702]">
                   Consulting
                 </Link>
               </div>
               <div className="w-full flex items-center justify-start border-b border-[#222222] lg:pb-1 md:pb-3 pb-3">
-                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#d79d05]">
+                <Link className="text-[#eceff3] font-medium xl:text-[14px] md:text-sm text-sm hover:text-[#fab702]">
                   Photography
                 </Link>
               </div>
@@ -159,37 +159,37 @@ const Footer = () => {
           <div className="xl:w-[15%] lg:w-[20%] md:w-[30%] w-[30%] h-full flex items-center justify-between">
             <Link
               to="#"
-              className="text-[#eceff3] flex items-center justify-between font-semibold md:text-[20px] text-[15px] hover:text-[#d79d05]"
+              className="text-[#eceff3] flex items-center justify-between font-semibold md:text-[20px] text-[15px] hover:text-[#fab702]"
             >
               <FaFacebookF />
             </Link>
             <Link
               to="#"
-              className="text-[#eceff3] flex items-center justify-between font-semibold md:text-[20px] text-[15px] hover:text-[#d79d05]"
+              className="text-[#eceff3] flex items-center justify-between font-semibold md:text-[20px] text-[15px] hover:text-[#fab702]"
             >
               <FaTwitter />
             </Link>
             <Link
               to="#"
-              className="text-[#eceff3] flex items-center justify-between font-semibold md:text-[20px] text-[15px] hover:text-[#d79d05]"
+              className="text-[#eceff3] flex items-center justify-between font-semibold md:text-[20px] text-[15px] hover:text-[#fab702]"
             >
               <FaInstagram />
             </Link>
             <Link
               to="#"
-              className="text-[#eceff3] flex items-center justify-between font-semibold md:text-[20px] text-[15px] hover:text-[#d79d05]"
+              className="text-[#eceff3] flex items-center justify-between font-semibold md:text-[20px] text-[15px] hover:text-[#fab702]"
             >
               <FaGooglePlusG />
             </Link>
             <Link
               to="#"
-              className="text-[#eceff3] flex items-center justify-between font-semibold md:text-[20px] text-[15px] hover:text-[#d79d05]"
+              className="text-[#eceff3] flex items-center justify-between font-semibold md:text-[20px] text-[15px] hover:text-[#fab702]"
             >
               <FaSkype />
             </Link>
             <Link
               to="#"
-              className="text-[#eceff3] flex items-center justify-between font-semibold md:text-[20px] text-[15px] hover:text-[#d79d05]"
+              className="text-[#eceff3] flex items-center justify-between font-semibold md:text-[20px] text-[15px] hover:text-[#fab702]"
             >
               <FaGlobe />
             </Link>
