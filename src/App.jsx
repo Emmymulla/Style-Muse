@@ -4,9 +4,14 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Login from "./Pages/Login";
 import About from "./Pages/ About";
-import Services from "./Pages/Services";
+import Services from "./Components/Services/Services";
 import Contact from "./Pages/Contact";
 import Header from "./components/Header";
+import Residential from "./Components/Services/Residential";
+import Office from "./Components/Services/Office";
+import Hospitaly from "./Components/Services/Hospitaly";
+import Commercial from "./Components/Services/Commercial";
+import Default from "./Components/Services/Default";
 
 function App() {
   return (
@@ -16,7 +21,14 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          {/* <Route path="/services" element={<Default />}> */}
           <Route path="/services" element={<Services />} />
+          <Route path="/services/residential" element={<Residential />} />
+          <Route path="/services/office" element={<Office />} />
+          <Route path="/services/hospitaly" element={<Hospitaly />} />
+          <Route path="/services/commercial" element={<Commercial />} />
+          {/* </Route> */}
+          {/* </Route> */}
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
         </Routes>
