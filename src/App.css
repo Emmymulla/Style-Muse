@@ -3,3 +3,151 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+
+.heroSection {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./assets/herobg.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.funitureLayout {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/funitureLayout.avif);
+}
+
+.spacePlanning {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/spacePlanning.avif);
+}
+
+.preconstruction {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/preconstruction.avif);
+}
+
+.customFuniture {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/customFuniture.avif);
+}
+
+.testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/testimonialsBg.avif);
+}
+
+.projectsBtn {
+  width: 8vw;
+  height: 4.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #ecddb6;
+  font-size: small;
+  font-weight: normal;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.projectsBtn:hover {
+  background: #000;
+}
+.projectDiv {
+  width: 24%;
+  height: 31vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ecoGreen {
+  background-image: url(./assets/EcoGreenInteriors.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.modernElegance {
+  background-image: url(./assets/modern-elegance-suite.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.apartmentRenovation {
+  background-image: url(./assets/apartment.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.youtubeVideo {
+  background-image: url(./assets/youtubeVideo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.vimeoVideo {
+  background-image: url(./assets/vimeoVideo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.resturant {
+  background-image: url(./assets/resturantintexas.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.summerHouse {
+  background-image: url(./assets/summerHouse.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.office {
+  background-image: url(./assets/officeOnSpace.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.editorialOffice {
+  background-image: url(./assets/editorialOffice.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.startupOffice {
+  background-image: url(./assets/startupOffice.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.homeOffice {
+  background-image: url(./assets/homeOffice.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sittingRoom {
+  background-image: url(./assets/commercialSittingroom.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.how {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/how.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
