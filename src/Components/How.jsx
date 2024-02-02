@@ -1,5 +1,6 @@
 import React from "react";
 import myVideo from "../assets/videoclip.mp4";
+import { Link } from "react-router-dom";
 
 function How() {
   return (
@@ -25,9 +26,11 @@ function How() {
             installers will set up your space to perfection, and voilà, you're
             ready to revel in the comfort and style of your newly minted haven.
           </p>
-          <button className="text-white text-sm font-medium border-2 border-white px-5 py-1 hover:text-black hover:bg-white ">
-            CONTACT US NOW
-          </button>
+          <Link to="/contact">
+            <button className="text-white text-sm font-medium border-2 border-white px-5 py-1 hover:text-black hover:bg-white ">
+              CONTACT US NOW
+            </button>
+          </Link>
         </div>
 
         {/* viveoDiv */}

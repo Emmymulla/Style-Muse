@@ -51,10 +51,14 @@ const Header = () => {
 
           {/* other-navlinks */}
           <div className="w-[45vw] h-[10vh] lg:flex md:hidden hidden items-center justify-evenly text-white text-xs font-semibold  ">
-            <Link className=" hover:text-[#d79d05]  ">SERVICES </Link>
+            <Link to="/services" className=" hover:text-[#d79d05]  ">
+              SERVICES{" "}
+            </Link>
             <Link className=" hover:text-[#d79d05] ">SHOP</Link>
             <Link className=" hover:text-[#d79d05] ">BLOGS</Link>
-            <Link className=" hover:text-[#d79d05] ">CONTACT US</Link>
+            <Link to="/contact" className=" hover:text-[#d79d05] ">
+              CONTACT US
+            </Link>
           </div>
 
           {/* login-&-signup */}
@@ -82,10 +86,15 @@ const Header = () => {
                 {/* dropdown-content */}
                 <div className="md:w-[24vw] w-[38vw] h-[50vh] flex flex-col items-start justify-between ">
                   <ul className=" md:w-[24vw] w-[38vw]  h-[30vh] flex flex-col items-start justify-between text-white text-sm font-semibold">
-                    <li>PROJECTS</li>
+                    <Link to="/services">
+                      <li>PROJECTS</li>
+                    </Link>
                     <li>SHOP</li>
                     <li>BLOGS</li>
-                    <li>CONTACT US</li>
+                    <Link to="/contact">
+                      {" "}
+                      <li>CONTACT US</li>
+                    </Link>
                   </ul>
                   <button className="w-[inherit] h-[5vh] text-[#0b0b0b] bg-[#faab02] text-sm font-bold ">
                     <Link> LOGIN</Link>

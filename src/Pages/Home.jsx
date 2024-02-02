@@ -25,7 +25,7 @@ const Home = () => {
 
             {/* call to action button */}
             <button className="text-base p-4 animate-pulse duration-700 font-bold rounded-lg  text-black bg-[#d79d05]">
-              <Link>Book a Consultation</Link>
+              <Link to="/contact">Book a Consultation</Link>
             </button>
           </div>
 
@@ -126,7 +126,7 @@ const Home = () => {
             <CustomFuniture />
           </div>
           <button className=" lg:w-[15vw] md:w-[25vw] w-[40vw] lg:h-[8vh] md:h-[8vh] h-[6vh] bg-[#d79b05] flex items-center justify-evenly border border-[#d79b0559] text-slate-900 font-bold rounded-md ">
-            VIEW MORE
+            <Link to="/services">VIEW MORE</Link>
             <b>
               <FaArrowRight />
             </b>
@@ -158,9 +158,12 @@ const Home = () => {
           <strong className="lg:text-2xl md:text-xl text-lg">
             Our interior design firm is the best in the business.
           </strong>
-          <button className="text-white text-sm font-medium border-2 border-white px-5 py-1 hover:text-black hover:bg-white ">
-            CONTACT US NOW
-          </button>
+
+          <Link to="/contact">
+            <button className="text-white text-sm font-medium border-2 border-white px-5 py-1 hover:text-black hover:bg-white ">
+              CONTACT US NOW
+            </button>
+          </Link>
         </div>
 
         {/* closingDiv */}
