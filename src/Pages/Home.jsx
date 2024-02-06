@@ -14,7 +14,7 @@ import How from "../components/How";
 const Home = () => {
   return (
     <>
-      <div className="w-full h-auto flex flex-col items-center justify-center ">
+      <div className="w-full mt-[10vh] h-auto flex flex-col items-center justify-center ">
         {/* hero-sectiion */}
         <div className=" heroSection bg-fixed bg-center  w-full lg:h-[89vh] md:h-[77vh] h-[70vh] flex flex-col items-center justify-between    ">
           {/* heroCaptionDiv */}
